@@ -397,10 +397,6 @@ namespace gr {
 
 		nco_freq = lf_int;
 
-		FILE *fid = fopen("/home/samu/testi_out.txt", "a+");
-		fprintf(fid, "%f,%f,%f,%d,\n", (nco_freq + nco_freq_fixed) * 1023e3 * osr_int / 2 / M_PI, phase_error, fix, fix_done);
-		fclose(fid);
-
 		// lock detection
 		if(lockdet_counter == 499)
 		{
