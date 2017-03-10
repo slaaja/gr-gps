@@ -22,6 +22,8 @@
 #define INCLUDED_GPS_GPS_NAVDATA_IMPL_H
 
 #include <gps/gps_navdata.h>
+#include <stdio.h>
+
 
 typedef enum
 {
