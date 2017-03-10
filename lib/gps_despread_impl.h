@@ -29,6 +29,8 @@
 
 #include <gps/gps_despread.h>
 #include <gnuradio/fft/fft.h>
+#include <stdio.h>
+
 
 typedef enum
 {
